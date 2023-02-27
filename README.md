@@ -46,7 +46,10 @@ webkitEnterFullscreen: function
 webkitExitFullScreen: function
 webkitExitFullscreen: function
 webkitSupportsFullscreen: boolean
-Browser specific HTMLMediaElement properties
+```
+
+```
+HTMLMediaElement properties
 webkitAudioDecodedByteCount: number
 webkitVideoDecodedByteCount: number
 ```
