@@ -5,6 +5,12 @@ output.className = 'output';
 
 function log(text) {
     output.innerHTML += text + '<br/>';
+    console.log(text);
+}
+
+function logTitle(text) {
+    output.innerHTML += '<h3>' + text + '</h3>';
+    console.log(text);
 }
 
 var htmlElementProps = [];
@@ -155,7 +161,7 @@ specificMediaElementProps.sort();
 
 log('UserAgent: ' + navigator.userAgent);
 
-log('<h3>HTMLAudioElement properties:</h3>');
+logTitle('HTMLAudioElement properties:');
 if (specificAudioElementProps.length) {
     for (var i = 0; i < specificAudioElementProps.length; i++) {
         log(specificAudioElementProps[i] + ': ' + (typeof audioElement[specificAudioElementProps[i]]));
@@ -164,7 +170,7 @@ if (specificAudioElementProps.length) {
     log('none');
 }
 
-log('<h3>HTMLVideoElement properties:</h3>');
+logTitle('HTMLVideoElement properties:');
 if (specificVideoElementProps.length) {
     for (var i = 0; i < specificVideoElementProps.length; i++) {
         log(specificVideoElementProps[i] + ': ' + (typeof videoElement[specificVideoElementProps[i]]));
@@ -173,7 +179,7 @@ if (specificVideoElementProps.length) {
     log('none');
 }
 
-log('<h3>HTMLMediaElement properties:</h3>');
+logTitle('HTMLMediaElement properties:');
 if (specificMediaElementProps.length) {
     for (var i = 0; i < specificMediaElementProps.length; i++) {
         log(specificMediaElementProps[i] + ': ' + (typeof videoElement[specificMediaElementProps[i]]));
