@@ -2,7 +2,7 @@
 
 var output = document.createElement('div');
 function log(text) {
-    output.innerHTML += text;
+    output.innerHTML += text + '<br/>';
 }
 
 var htmlElementProps = [];
@@ -155,33 +155,27 @@ log('UserAgent: ' + navigator.userAgent);
 
 log('<h3>HTMLAudioElement properties:</h3>');
 if (specificAudioElementProps.length) {
-    log('<ul>');
     for (var i = 0; i < specificAudioElementProps.length; i++) {
-        log('<li>' + specificAudioElementProps[i] + ': ' + (typeof audioElement[specificAudioElementProps[i]]) + '</li>');
+        log(specificAudioElementProps[i] + ': ' + (typeof audioElement[specificAudioElementProps[i]]));
     }
-    log('</ul>');
 } else {
     log('none');
 }
 
 log('<h3>HTMLVideoElement properties:</h3>');
 if (specificVideoElementProps.length) {
-    log('<ul>');
     for (var i = 0; i < specificVideoElementProps.length; i++) {
-        log('<li>' + specificVideoElementProps[i] + ': ' + (typeof videoElement[specificVideoElementProps[i]]) + '</li>');
+        log(specificVideoElementProps[i] + ': ' + (typeof videoElement[specificVideoElementProps[i]]));
     }
-    log('</ul>');
 } else {
     log('none');
 }
 
 log('<h3>HTMLMediaElement properties:</h3>');
 if (specificMediaElementProps.length) {
-    log('<ul>');
     for (var i = 0; i < specificMediaElementProps.length; i++) {
-        log('<li>' + specificMediaElementProps[i] + ': ' + (typeof videoElement[specificMediaElementProps[i]]) + '</li>');
+        log(specificMediaElementProps[i] + ': ' + (typeof videoElement[specificMediaElementProps[i]]));
     }
-    log('</ul>');
 } else {
     log('none');
 }
