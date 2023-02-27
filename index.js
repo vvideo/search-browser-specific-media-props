@@ -1,6 +1,8 @@
 (function() {
 
 var output = document.createElement('div');
+output.className = 'output';
+
 function log(text) {
     output.innerHTML += text + '<br/>';
 }
