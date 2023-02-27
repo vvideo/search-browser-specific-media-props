@@ -97,3 +97,43 @@ webkitPreservesPitch: boolean
 webkitSetMediaKeys: function
 webkitShowPlaybackTargetPicker: function
 ```
+
+
+## Safari 16.2 Mac OS X
+```
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15
+```
+
+```
+HTMLAudioElement properties: none
+```
+
+```
+HTMLVideoElement properties:
+autoPictureInPicture: boolean
+webkitDisplayingFullscreen: boolean
+webkitEnterFullScreen: function
+webkitEnterFullscreen: function
+webkitExitFullScreen: function
+webkitExitFullscreen: function
+webkitPresentationMode: string
+webkitSetPresentationMode: function
+webkitSupportsFullscreen: boolean
+webkitSupportsPresentationMode: function
+webkitWirelessVideoPlaybackDisabled: boolean
+```
+
+```
+HTMLMediaElement properties:
+controller: object
+fastSeek: function
+getStartDate: function
+mediaGroup: string
+webkitClosedCaptionsVisible: boolean
+webkitCurrentPlaybackTargetIsWireless: boolean
+webkitHasClosedCaptions: boolean
+webkitKeys: object
+webkitPreservesPitch: boolean
+webkitSetMediaKeys: function
+webkitShowPlaybackTargetPicker: function
+```
