@@ -153,7 +153,7 @@ specificMediaElementProps.sort();
 
 log('UserAgent: ' + navigator.userAgent);
 
-log('<h3>Browser specific HTMLAudioElement properties</h3>');
+log('<h3>HTMLAudioElement properties:</h3>');
 if (specificAudioElementProps.length) {
     log('<ul>');
     for (var i = 0; i < specificAudioElementProps.length; i++) {
@@ -164,7 +164,7 @@ if (specificAudioElementProps.length) {
     log('none');
 }
 
-log('<h3>Browser specific HTMLVideoElement properties</h3>');
+log('<h3>HTMLVideoElement properties:</h3>');
 if (specificVideoElementProps.length) {
     log('<ul>');
     for (var i = 0; i < specificVideoElementProps.length; i++) {
@@ -175,7 +175,7 @@ if (specificVideoElementProps.length) {
     log('none');
 }
 
-log('<h3>Browser specific HTMLMediaElement properties</h3>');
+log('<h3>HTMLMediaElement properties</h3>');
 if (specificMediaElementProps.length) {
     log('<ul>');
     for (var i = 0; i < specificMediaElementProps.length; i++) {
