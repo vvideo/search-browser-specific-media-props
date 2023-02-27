@@ -175,7 +175,7 @@ if (specificVideoElementProps.length) {
     log('none');
 }
 
-log('<h3>HTMLMediaElement properties</h3>');
+log('<h3>HTMLMediaElement properties:</h3>');
 if (specificMediaElementProps.length) {
     log('<ul>');
     for (var i = 0; i < specificMediaElementProps.length; i++) {
