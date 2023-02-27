@@ -205,3 +205,28 @@ mozGetMetadata: function
 mozPreservesPitch: boolean
 seekToNextFrame: function
 ```
+
+
+## webOS 1 (WebApp)
+```
+UserAgent: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41
+```
+
+```
+HTMLAudioElement properties: none
+```
+
+```
+HTMLVideoElement properties:
+webkitEnterFullScreen: function
+webkitEnterFullscreen: function
+webkitExitFullScreen: function
+webkitExitFullscreen: function
+```
+
+```
+HTMLMediaElement properties:
+webkitAddKey: function
+webkitCancelKeyRequest: function
+webkitGenerateKeyRequest: function
+```
