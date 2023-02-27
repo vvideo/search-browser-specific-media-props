@@ -173,3 +173,35 @@ yandexVideo: object
 yandexVideoSubtitles: object
 yandexVideoTranslation: object
 ```
+
+
+## Firefox 110, Mac OS X
+```
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+```
+
+```
+HTMLAudioElement properties: none
+```
+
+```
+HTMLVideoElement properties:
+mozDecodedFrames: number
+mozFrameDelay: number
+mozHasAudio: boolean
+mozPaintedFrames: number
+mozParsedFrames: number
+mozPresentedFrames: number
+```
+
+```
+HTMLMediaElement properties:
+fastSeek: function
+mozAudioCaptured: boolean
+mozCaptureStream: function
+mozCaptureStreamUntilEnded: function
+mozFragmentEnd: number
+mozGetMetadata: function
+mozPreservesPitch: boolean
+seekToNextFrame: function
+```
