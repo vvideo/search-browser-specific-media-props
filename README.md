@@ -57,3 +57,43 @@ HTMLMediaElement properties
 webkitAudioDecodedByteCount: number
 webkitVideoDecodedByteCount: number
 ```
+
+
+## iPhone 16.2 Safari
+```
+UserAgent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1
+```
+
+```
+HTMLAudioElement properties: none
+```
+
+```
+HTMLVideoElement properties:
+autoPictureInPicture: boolean
+webkitDisplayingFullscreen: boolean
+webkitEnterFullScreen: function
+webkitEnterFullscreen: function
+webkitExitFullScreen: function
+webkitExitFullscreen: function
+webkitPresentationMode: string
+webkitSetPresentationMode: function
+webkitSupportsFullscreen: boolean
+webkitSupportsPresentationMode: function
+webkitWirelessVideoPlaybackDisabled: boolean
+```
+
+```
+HTMLMediaElement properties:
+controller: object
+fastSeek: function
+getStartDate: function
+mediaGroup: string
+webkitClosedCaptionsVisible: boolean
+webkitCurrentPlaybackTargetIsWireless: boolean
+webkitHasClosedCaptions: boolean
+webkitKeys: object
+webkitPreservesPitch: boolean
+webkitSetMediaKeys: function
+webkitShowPlaybackTargetPicker: function
+```
