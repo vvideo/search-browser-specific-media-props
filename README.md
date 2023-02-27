@@ -1,10 +1,18 @@
 # Search browser specific HTMLAudioElement, HTMLVideoElement, HTMLMediaElement properties
 
-[The page]() for test.
+[The page](https://vvideo.github.io/search-browser-specific-media-props/) for test.
 
 ## Edge 110.0.1587.57 MacOSX
-```HTMLAudioElement: none```
-```HTMLVideoElement:
+```
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57
+```
+
+```
+HTMLAudioElement: none
+```
+
+```
+HTMLVideoElement:
 msGetVideoProcessingTypes: function
 msVideoProcessing: string
 webkitDecodedFrameCount: number
@@ -17,7 +25,8 @@ webkitExitFullscreen: function
 webkitSupportsFullscreen: boolean
 ```
 
-```HTMLMediaElement properties:
+```
+HTMLMediaElement properties:
 webkitAudioDecodedByteCount: number
 webkitVideoDecodedByteCount: number
 ```
